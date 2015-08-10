@@ -1,0 +1,16 @@
+
+Template.listaLectura.helpers({
+  datosLectura: function(){
+
+	var d = DatosLectura.findOne({}, {sort: {time: -1}});
+    
+      //If there are more than 'limit' points on the historical chart, remove the oldest point
+      if (chartData.length > 11) {
+        chartData.shift();
+      }
+      updateChartAndGauges(d);
+    
+
+ 	return DatosLectura.find();
+  }
+});

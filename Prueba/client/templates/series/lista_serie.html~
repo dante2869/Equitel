@@ -1,0 +1,7 @@
+<template name="listaLectura">
+  <div class="posts">
+    {{#each datosSerie}}
+      {{> serie}}
+    {{/each}}
+  </div>
+</template>

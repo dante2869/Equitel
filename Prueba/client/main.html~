@@ -1,0 +1,16 @@
+<head>
+  <title>Prueba Equitel</title>
+</head>
+<body>
+  <div class="container">
+    <header class="navbar navbar-default" role="navigation"> 
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">Prueba monitoreo sensores</a>
+      </div>
+    </header>
+    <div id="main">
+      {{> grafica}}
+      {{> listaLectura}}
+    </div>
+  </div>
+</body>

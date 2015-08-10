@@ -1,0 +1,11 @@
+<template name="lectura">
+  <div class="post">
+    <div class="post-content">
+      <h3>
+ 	<span>Humedad: {{Sensor5}},</span>
+	<span>Temperatura: {{Sensor1}},</span>
+	<span>Velocidad: {{Sensor2}}</span>
+      </h3>
+    </div>
+  </div>
+</template>

@@ -1,0 +1,1 @@
+DatosLectura = new Mongo.Collection('datosLectura');
